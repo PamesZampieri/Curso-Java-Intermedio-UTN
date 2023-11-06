@@ -29,8 +29,7 @@ public class Transformador {
         for (String elemento : elementos) {
             resultado.add(function.apply(elemento));
         }
-
-
+        
         return resultado;
     }
 }
